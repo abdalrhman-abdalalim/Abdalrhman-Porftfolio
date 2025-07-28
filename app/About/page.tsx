@@ -1,16 +1,20 @@
 "use client";
-import HeroPage from "@/components/HeroSection/HeroPage";
+import AboutPage from "@/components/AboutSection/AboutPage";
 import { motion } from "framer-motion";
 
-export default function Home() {
+interface IProps {}
+
+const page = ({}: IProps) => {
   return (
     <motion.div
-      className="h-full"
+      className="h-full scroll-container"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <HeroPage />
+      <AboutPage />
     </motion.div>
   );
-}
+};
+
+export default page;

@@ -42,7 +42,7 @@ const ExperienceItem = ({
         </div>
 
         {/* Right Side - Duration & Years */}
-        <div className="flex items-center justify-between sm:justify-end gap-4 sm:gap-6">
+        <div className="flex items-center justify-center sm:justify-end gap-4 sm:gap-6">
           <div className="text-right sm:text-left">
             <div className="text-white/70 text-xs sm:text-sm font-medium uppercase tracking-wider mb-1">
               {duration}
@@ -50,23 +50,6 @@ const ExperienceItem = ({
             <div className="text-white/40 text-xs uppercase tracking-widest">
               {years}
             </div>
-          </div>
-
-          {/* Arrow indicator for mobile */}
-          <div className="sm:hidden flex-shrink-0">
-            <svg
-              className="w-4 h-4 text-white/40 transform group-hover:translate-x-1 transition-transform duration-300"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
           </div>
         </div>
       </div>

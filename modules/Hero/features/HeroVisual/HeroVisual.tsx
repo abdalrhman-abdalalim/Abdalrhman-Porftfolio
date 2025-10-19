@@ -5,7 +5,7 @@ interface IProps {}
 
 const HeroVisual = ({}: IProps) => {
   return (
-    <div className="relative flex items-center justify-center mt-8 lg:mt-0 px-4 sm:px-0">
+    <div className="relative flex items-center justify-center mt-8 lg:mt-0 px-4 sm:px-0 order-1">
       <ProfileImage />
       <WavyLine />
 

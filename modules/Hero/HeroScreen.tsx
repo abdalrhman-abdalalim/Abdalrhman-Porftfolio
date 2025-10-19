@@ -22,7 +22,7 @@ const HeroScreen = ({ onContactClick }: IProps) => {
       {/* Animated Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:50px_50px] z-0"></div>
 
-      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 lg:pt-32 pb-16 sm:pb-20 lg:pb-24 z-10">
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-18 sm:pt-20 lg:pt-14 pb-16 sm:pb-20 lg:pb-24 z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center">
           <HeroContent onContactClick={onContactClick} />
           <HeroVisual />

@@ -8,7 +8,7 @@ interface IProps {
 
 const HeroContent = ({ onContactClick }: IProps) => {
   return (
-    <div className="space-y-4 sm:space-y-6 lg:space-y-8">
+    <div className="space-y-4 sm:space-y-6 lg:space-y-6 max-lg:order-2">
       {/* Animated Badge */}
       <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full mb-4 hover:bg-white/10 transition-all duration-300">
         <span className="relative flex h-2 w-2">

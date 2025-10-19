@@ -6,7 +6,6 @@ import FooterScreen from "@/modules/Footer/FooterScreen";
 import HeroScreen from "@/modules/Hero/HeroScreen";
 import ServicesScreen from "@/modules/Services/ServicesScreen";
 import TestimonialScreen from "@/modules/Testimonial/TestimonialScreen";
-import Image from "next/image";
 import { useRef } from "react";
 
 export default function Home() {

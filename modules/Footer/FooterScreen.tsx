@@ -9,7 +9,7 @@ const FooterScreen = ({}: IProps) => {
     { label: "GitHub", href: "https://github.com/abdalrhman-abdalalim" },
     {
       label: "CV",
-      href: "https://drive.google.com/file/d/1I-LYf-wiVTdJcE-ak1O99tPSkBGVjkVY/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/11MjuP3_Ccktdg9B4HsU5sson6ZNthgNP/view?usp=drive_link",
     },
   ];
   return (

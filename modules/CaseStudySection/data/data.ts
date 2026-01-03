@@ -4,7 +4,8 @@ import BarcodeStore from "@/public/Projects/BarCode.png";
 import RamenPharma from "@/public/Projects/Ramen Pharma.png";
 import WonderMakers from "@/public/Projects/WonderMakers.png";
 import ContractProject from "@/public/Projects/Contract.png";
-
+import CodeSparkSa from "@/public/Projects/codesparkSA.png";
+import TekaX from "@/public/Projects/Teka-X-Store.png";
 
 export const projects = [
   {
@@ -23,7 +24,47 @@ export const projects = [
       "Laravel",
       "MySQL",
     ],
-    liveSite: "https://kerneltech.site/",
+    liveSite: "https://www.kerneltech.site/",
+  },
+  {
+    category: "FREELANCE PROJECT",
+    title: "Teka-X E-commerce Store",
+    image: TekaX,
+    layout: "right" as const,
+    description:
+      "Teka-X is a scalable E-Commerce platform built with a strong focus on user experience, performance, and business flexibility. The store supports both simple and variant-based products, enables guest checkout without mandatory authentication, and provides a flexible pricing system where variant prices can differ from the base product price. The project was designed to ensure a smooth shopping journey from product discovery to order completion, with optimized search functionality for fast and accurate product access.",
+    technologies: [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Query",
+      "Axios",
+      "Framer Motion",
+      "RESTful APIs",
+      "Scalable Architecture",
+      "Performance Optimization",
+      "UX/UI Best Practices",
+    ],
+    liveSite: "https://teka-x.store/", // عدل اللينك لو مختلف
+  },
+  {
+    category: "FREELANCE PROJECT",
+    title: "Code Spark KSA (Saudi Arabia Version)",
+    image: CodeSparkSa,
+    layout: "right" as const,
+    description:
+      "A full-stack educational platform built with Clean Architecture principles and agile development methodologies. Code Spark provides instructors with advanced tools for course creation, student management, and performance analytics, all developed with a clear separation of concerns.",
+    technologies: [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "React Query",
+      "Axios",
+      "Clean Architecture",
+      "Agile Development",
+    ],
+    liveSite: "https://codespark-sa.com/",
   },
   {
     category: "FREELANCE PROJECT",

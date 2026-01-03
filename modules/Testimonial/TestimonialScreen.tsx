@@ -13,12 +13,12 @@ const TestimonialScreen = ({}: IProps) => {
   const stats = [
     {
       icon: <ProjectsIcon />,
-      value: "6",
+      value: "8",
       label: "Projects Completed",
     },
     {
       icon: <ClientsIcon />,
-      value: "6",
+      value: "8",
       label: "Happy Clients",
     },
     {
@@ -28,7 +28,7 @@ const TestimonialScreen = ({}: IProps) => {
     },
     {
       icon: <ReviewsIcon />,
-      value: "6",
+      value: "8",
       label: "5-Star Reviews",
     },
   ];

@@ -22,7 +22,7 @@ const HeroContent = ({ onContactClick }: IProps) => {
 
       <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
         Hello! I'm{" "}
-        <span className="inline-block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient">
+        <span className="inline-block bg-linear-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient">
           Abdalrh
           <span
             className="bg-clip-text text-transparent"
@@ -40,7 +40,7 @@ const HeroContent = ({ onContactClick }: IProps) => {
       </h1>
 
       <div className="flex items-center gap-3 mb-4 sm:mb-6">
-        <div className="w-16 sm:w-24 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
+        <div className="w-16 sm:w-24 h-px bg-linear-to-r from-transparent via-white/30 to-transparent"></div>
         <p className="text-sm sm:text-base text-white/70 font-medium tracking-wide">
           Frontend Developer
         </p>

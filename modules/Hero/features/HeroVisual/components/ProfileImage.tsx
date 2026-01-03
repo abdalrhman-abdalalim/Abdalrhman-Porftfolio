@@ -1,4 +1,4 @@
-import ProfImage from "@/public/last5.png";
+import ProfImage from "@/public/Gemini_Generated_Image_nyoh0vnyoh0vnyoh.png";
 import Image from "next/image";
 
 interface IProps {
